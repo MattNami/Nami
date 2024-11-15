@@ -1,0 +1,60 @@
+<!DOCTYPE html
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nami Chatbot </title>
+  <!-- Linking Google Fonts For Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <!-- Header Greetings -->
+    <h1 class="title">Hello, there</h1>
+    <p class="subtitle">Sideen Ku cawiya manta? </p>
+
+    <!-- Suggestion list -->
+    <ul class="suggestion-list">
+      <li class="suggestion">
+        <h4 class="text"> Iga caawi inaan qorsheeyo habeen ciyaar 5ta saaxiib ee ugu fiican wax ka yar $100</h4>
+        <span class="icon material-symbols-rounded">draw</span>
+      </li>
+      <li class="suggestion">
+        <h4 class="text"> Waa maxay talooyinka ugu fiican si aan u horumariyo xirfadahayga ku hadalka dadweynaha? </h4>
+        <span class="icon material-symbols-rounded">lightbulb</span>
+      </li>
+      <li class="suggestion">
+        <h4 class="text">Ma iga caawin kartaa inaan helo wararkii ugu dambeeyay ee horumarinta shabakadda?</h4>
+        <span class="icon material-symbols-rounded">explore</span>
+      </li>
+      <li class="suggestion">
+        <h4 class="text">Qor koodka JavaScript si aad u soo koobto dhammaan curiyayaasha shaxda</h4>
+        <span class="icon material-symbols-rounded">code</span>
+      </li>
+    </ul>
+  </header>
+
+  <!-- Chat List / Container -->
+  <div class="chat-list"></div>
+
+  <!-- Typing Area -->
+  <div class="typing-area">
+    <form action="#" class="typing-form">
+      <div class="input-wrapper">
+        <input type="text" placeholder="Enter a prompt here" class="typing-input" required />
+        <button id="send-message-button" class="icon material-symbols-rounded">send</button>
+      </div>
+      <div class="action-buttons">
+        <span id="theme-toggle-button" class="icon material-symbols-rounded">light_mode</span>
+        <span id="delete-chat-button" class="icon material-symbols-rounded">delete</span>
+      </div>
+    </form>
+    <p class="disclaimer-text">
+      Nami waxa laga yaabaa inay soo bandhigto macluumaadka aan saxda ahayn, oo ay ku jiraan dadka, markaa laba jeer hubi jawaabahooda.
+    </p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
